@@ -146,38 +146,67 @@ li:hover{
     .icon-container{
         display: none;
     }
-    .search-icon i{
+    .search-icon{
+        display: block;
+        margin-top: 150px;
         color: #433E3F;
-        font-size: larger;
-        display: inline;
-        margin-top: 148px;
-        margin-left: 5px;
+        font-size: 25px;
+    }
+    .input{
+        display: none;
+    }
+    .menu-icon{
+        display: none;
     }
 
-.input{
+}
+.menu-icon{
     display: none;
-
+    margin-bottom: 50px;
+    color: #433E3F;
+    font-size: 25px;
 }
-}
 
-
-/* todo responive below 935 */
-/* todo responive below 935 */
-/* todo responive below 935 */
-/* todo responive below 935 */
-/* todo responive below 935 */
 
 /* media querry for 935px */
 @media screen and (max-width: 935px){
-    .icon-container{
+    body{
+        background-position: bottom;
+    }
+
+    li{
         display: none;
     }
-    .search-icon{
-        display: contents;
+    .menu-icon{
+        display: block;
+        margin-bottom: 50px;
+        color: #433E3F;
+        font-size: 25px;
     }
-.input{
-    display: none;
-}
+    .sm-icon-box{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+
+    }
+    .icon-container{
+        display: block;
+        margin-top: 150px;
+    }
+    .search-icon{
+        display: block;   
+        margin-bottom: 50px;      
+    }
+    .header-container{
+        justify-content: space-around;
+        direction: rtl;
+        flex-direction: row;
+
+    }
+    
 ul{
     direction: ltr;
     display: flex;
@@ -185,8 +214,34 @@ ul{
     justify-content: space-evenly;
     align-items: flex-end;
     list-style: none;
-    
 }
+article{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 
 }
+}
+@media screen and (max-width: 935px){
+
+.icon-container{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
