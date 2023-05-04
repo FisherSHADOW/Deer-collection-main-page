@@ -91,7 +91,7 @@ li:hover{
     outline: 1px solid #433E3F;
 }
   article{
-    width: 100vw;
+    width: 90vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -190,7 +190,6 @@ li:hover{
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-end;
-
     }
     .icon-container{
         display: block;
@@ -226,22 +225,38 @@ article{
 
 .icon-container{display: none;}
 
+}
+@media screen and (max-width: 553px){
 
+    .icon-container{display: none;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .sm-icon-box{
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-left: 20px;
+    }
+    .article-content{
+        margin-top: 70px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        margin-right: 30px;
+    }
 
 }
+@media screen and (max-width: 400px){
+
+    body{
+        background-image: none;
+    }
+}    
 
 

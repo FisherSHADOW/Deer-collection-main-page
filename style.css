@@ -7,7 +7,6 @@
     src: url(./assets/fonts/libel-suit-rg.otf);
 }
 body{
-    
     height: 90vh;
     background-image: url(./assets/images/Deer-wallpaper.jpg);
     background-repeat: no-repeat;
@@ -91,7 +90,7 @@ li:hover{
     outline: 1px solid #433E3F;
   }
   article{
-    width: 100vw;
+    width: 90vw;
     height: auto;
     display: flex;
     flex-direction: column;
