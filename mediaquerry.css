@@ -1,262 +1,119 @@
-/* media querry for 2540px */
 @media screen and (max-width: 2540px) {
-
-
-@font-face {
-    font-family: xtitle;
-    src: url(./assets/fonts/Nautilus.otf);
-}
-@font-face {
-    font-family: xarticle;
-    src: url(./assets/fonts/libel-suit-rg.otf);
-}
-body{
-    height: 90vh;
-    background-image: url(./assets/images/Deer-wallpaper.jpg);
-    background-repeat: no-repeat;
-    background-size:50%;
-    background-position: center top 230px;
-    background-color: rgb(234, 234, 234);
-}
-.header-container{
-    width: 100vw;
-    direction: rtl;
-    height: 180px;
-    background-color: #C69C72;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: -2px 8px 13px 2px rgba(0,0,0,0.63);
-}
-.logo{
-    width: 350px;
-}
-.icon-container{
-    font-size: 25px;
-    width: 300px;
-    height: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    margin-right: -80px;
-}
-.icon-container>a{
-    margin: 0 10px;
-    color:#433E3F ;
-}
-ul{
-    direction: ltr;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    list-style: none;
-}
-li{
-    font-family:xarticle;
-    color: #433E3F;
-    font-size: 20px;
-    cursor: pointer;
-    margin: -6px 10px;
-    transition:all 500ms ease none;
-}
-li:hover{
-    border-bottom: #433E3F 2px solid;
-    
-}
-.input-container{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin-bottom: 5px;
-}
-.input{
-    font-family:xarticle; 
-    
-    direction: ltr;
-    width:150px;
-    height: 4px;
-    background-color: #C0B7B1;
-    color:#433E3F;
-    min-height: 40px;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    box-shadow: 0px 10px 20px -18px;
-}
-  input:focus {
-    border-bottom: 2px solid #433E3F;
-    border-radius: 4px 4px 2px 2px;
-}
-  input:hover {
-    outline: 1px solid #433E3F;
-}
-  article{
-    width: 90vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: flex-start;
-    margin-left: 60px;
-    margin-top: 30px;
-}
-  h1{
-    font-family: xtitle;
-    color: #7A7265;
-    font-size: 70px;
-    margin-left: 25px;
-    border-bottom: solid 6px #433E3F;
-}
-.btn{
-    font-family:xarticle;
-    font-size: 26px;
-    background-color: #433E3F;
-    border: 1px solid #433E3F ;
-    color: #C0B7B1 ;
-    border-radius: 15px;
-    cursor: pointer;
-    width: 200px;
-    height: 40px;
-    margin-left: 62px;
-    margin-top: -30px;
-    box-shadow: -2px 8px 10px 1px rgba(0,0,0,0.63);
-    transition: all ease-in-out 100ms ;
-}
-.btn:hover{
-    background-color:#7A7265;
-    color: #433E3F;
-    transform: scale(0.9);
-    box-shadow: none
-}
-.search-icon{
-    display: none;
-}
-}
-
-/* media querry for 1300px */
-@media screen and (max-width: 1300px){
-.icon-container{
-    display: none;
-}
-}
-
-
-/* media querry for 1080px */
-@media screen and (max-width: 1080px){
-    .icon-container{
-        display: none;
-    }
-    .search-icon{
-        display: block;
-        margin-top: 150px;
-        color: #433E3F;
-        font-size: 25px;
-    }
-    .input{
-        display: none;
-    }
-    .menu-icon{
-        display: none;
-    }
-
-}
-.menu-icon{
-    display: none;
-    margin-bottom: 50px;
-    color: #433E3F;
-    font-size: 25px;
-}
-
-
-/* media querry for 935px */
-@media screen and (max-width: 935px){
     body{
-        background-position: bottom;
-    }
-
-    li{
-        display: none;
+        height: 90vh;
+        background-image: url(./assets/images/Deer-wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size:75%;
+        background-position: 500px 60px;
+        background-color: rgb(234, 234, 234);
     }
     .menu-icon{
-        display: block;
-        margin-bottom: 50px;
-        color: #433E3F;
-        font-size: 25px;
+        display: none;
     }
-    .sm-icon-box{
-        width: 150px;
-        height: 150px;
+}
+@media screen and (max-width: 1105px) {
+    body{
+        height: 90vh;
+        background-image: url(./assets/images/Deer-wallpaper.jpg);
+        background-repeat: no-repeat;
+        background-size:75%;
+        background-position: 500px 200px;
+        background-color: rgb(234, 234, 234);
+    }
+    .menu-icon{
+        display: none;
+    }
+    .cards-container{
+        width: 80%;
+        height: 520px;
         display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-end;
-    }
-    .icon-container{
-        display: block;
-        margin-top: 150px;
-    }
-    .search-icon{
-        display: block;   
-        margin-bottom: 50px;      
-    }
-    .header-container{
-        justify-content: space-around;
-        direction: rtl;
-        flex-direction: row;
-
-    }
-    
-ul{
-    direction: ltr;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    list-style: none;
-}
-article{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-
-}
-}
-@media screen and (max-width: 935px){
-
-.icon-container{display: none;}
-
-}
-@media screen and (max-width: 553px){
-
-    .icon-container{display: none;}
-
-    .sm-icon-box{
-        width: 150px;
-        height: 150px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-end;
-        margin-left: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+        border: var(--primary-color) 6px solid ;
+        border-radius: 25px;
+        background-color: #C0B7B1;
+        box-shadow: 5px 5px 20px black;    
     }
     .article-content{
-        margin-top: 70px;
-        text-align: center;
+        width: 400px;
+        height: 350px;
+        margin-left: 180px;
+        margin-top: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .btn{
-        margin-right: 30px;
-    }
-
+      }
+      .icon-container{
+        display: none;
+      }
 }
-@media screen and (max-width: 400px){
+
+@media screen and (max-width: 999px) {
 
     body{
         background-image: none;
     }
-}    
 
+    .cards-container{
+        width: 50%;
+        height: 520px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: var(--primary-color) 6px solid ;
+        border-radius: 25px;
+        background-color: #C0B7B1;
+        box-shadow: 5px 5px 20px black;    
+    }
+      article{
+    width: 90vw;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+  }
+  .article-content{
+    width: 400px;
+    height: 350px;
+    margin-left:100px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
+@media screen and (max-width: 885px) {
+
+    ul{
+      display: none;
+    }
+    
+}
+@media screen and (max-width: 481px) {
+
+    .cards-container{
+        width: 70%;
+        height: 520px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: var(--primary-color) 6px solid ;
+        border-radius: 25px;
+        background-color: #C0B7B1;
+        box-shadow: 5px 5px 20px black;    
+    }
+    .article-content{
+        width: 400px;
+        height: 350px;
+        margin-left:auto;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+}

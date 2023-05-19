@@ -8,13 +8,10 @@
 }
 :root{
     --primary-color: #433E3F ;
-    --secondary-color: #7A7265; ;
+    --secondary-color: #7A7265; 
     --third-color: #C69C72;
     --light-color: rgb(234, 234, 234);
-    --dark-color: #0d0d0d ; 
-    
-
-
+    --dark-color: #0d0d0d ;
 }
 body{
     height: 90vh;
@@ -44,6 +41,7 @@ body{
     justify-content: center;
     align-items: flex-end;
     margin-right: -80px;
+    
 }
 .icon-container>a{
     margin: 0 10px;
@@ -56,6 +54,7 @@ ul{
     justify-content: space-evenly;
     align-items: flex-end;
     list-style: none;
+    flex-wrap: nowrap;
 }
 li{
     font-family:xarticle;
@@ -64,6 +63,8 @@ li{
     cursor: pointer;
     margin: -6px 10px;
     transition:all 500ms ease none;
+    flex-wrap: nowrap;
+    display: block;
 }
 li:hover{
     border-bottom: #433E3F 2px solid;  
@@ -105,13 +106,12 @@ li:hover{
   .article-content{
     width: 400px;
     height: 350px;
-    margin-left: 150px;
+    margin-left: 280px;
     margin-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
   h1{
     font-family: xtitle;
@@ -155,13 +155,17 @@ li:hover{
     height: 600px;
 }
 .cards-container{
-    width: 70vw;
+    width: 80%;
     height: 520px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border: var(--primary-color) 6px solid ;
     border-radius: 25px;
+    background-color: #C0B7B1;
+    box-shadow: 5px 5px 20px black; 
+    overflow: scroll;   
+    flex-wrap: wrap;
 }
 .card-title{
     font-family: xtitle ;
@@ -193,14 +197,12 @@ li:hover{
     transform: scale(0.9);
     box-shadow: none
 }
-
 .cardBox1{
     position: relative;
     width: 400px;
     height: 500px;
     cursor: pointer;
     transition: all 400ms ease-in-out;
-    
 }
 .cardImg1{
     width: 400px;
