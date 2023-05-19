@@ -167,6 +167,9 @@ li:hover{
     overflow: scroll;   
     flex-wrap: wrap;
 }
+::-webkit-scrollbar{
+    width: 0 ;
+}
 .card-title{
     font-family: xtitle ;
     font-size: 70px ;
